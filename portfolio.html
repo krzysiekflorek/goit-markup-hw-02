@@ -4,71 +4,161 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>WebStudio-Portfolio</title>
   </head>
+
   <body>
-    <h1>PORTFOLIO PAGE</h1>
-    <section>
+    <header>
+      <a class="header-logo" href="./index.html"></a>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <a class="navigation-list-link1" href="./studio.html">Agencja</a>
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link2" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link3" href="./contacts.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
       <ul>
         <li>
-          <img src="images/image2_1.jpg" alt="Pro" width="370" height="294" />
+          <a class="contact-mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <img src="images/image2_2.jpg" alt="Prog" width="370" height="294" />
-        </li>
-        <li>
-          <img src="images/image2_3.jpg" alt="Progr" width="370" height="294" />
-        </li>
-        <li>
-          <img
-            src="images/image2_4.jpg"
-            alt="Program"
-            width="370"
-            height="294"
-          />
-        </li>
-        <li>
-          <img
-            src="images/image2_5.jpg"
-            alt="Programist"
-            width="370"
-            height="294"
-          />
-        </li>
-        <li>
-          <img
-            src="images/image2_6.jpg"
-            alt="Programistk"
-            width="370"
-            height="294"
-          />
-        </li>
-
-        <li>
-          <img
-            src="images/image2_7.jpg"
-            alt="Programista "
-            width="370"
-            height="294"
-          />
-        </li>
-        <li>
-          <img
-            src="images/image2_8.jpg"
-            alt="Programistka ko"
-            width="370"
-            height="294"
-          />
-        </li>
-        <li>
-          <img
-            src="images/image2_9.jpg"
-            alt="Programistka trzyma"
-            width="370"
-            height="294"
-          />
+          <a class="phone-number" href="tel:+48 111 111 111">+48 111 111 111</a>
         </li>
       </ul>
-    </section>
+    </header>
+
+    <main class="portfolio-main">
+      <section>
+        <ul>
+          <li><button class="buttons1" type="button">Wszystkie</button></li>
+          <li><button class="buttons2" type="button">Strony</button></li>
+          <li><button class="buttons3" type="button">Aplikacje</button></li>
+          <li><button class="buttons4" type="button">Dizajn</button></li>
+          <li><button class="buttons5" type="button">Marketing</button></li>
+        </ul>
+      </section>
+      <section class="projects">
+        <ul>
+          <li>
+            <img
+              src="images/image2_1.jpg"
+              alt="Strona internetowa z trzema zdjęciami - dwóch kobiet i męźczyzny pośrodku"
+              width="370"
+              height="294"
+            />
+            <p class="project-name">Technocrack</p>
+            <p class="project-type">Strona internetowa</p>
+          </li>
+          <li>
+            <img
+              src="images/image2_2.jpg"
+              alt="Grafika prezentująca dwóch koszykarzy w grze"
+              width="370"
+              height="294"
+            />
+            <p class="project-name">Grafika New Orlean vs Golden Star</p>
+            <p class="project-type">Dizajn</p>
+          </li>
+          <li>
+            <img
+              src="images/image2_3.jpg"
+              alt="Grafika z szyldem o treści - The Seafood Restaurant Est. 2001"
+              width="370"
+              height="294"
+            />
+            <p class="project-name">Restauracja Seafood</p>
+            <p class="project-type">Aplikacja</p>
+          </li>
+          <li>
+            <img
+              src="images/image2_4.jpg"
+              alt="Zdjęcie słuchawki nausznej"
+              width="370"
+              height="294"
+            />
+            <p class="project-name">Projekt Prime</p>
+            <p class="project-type">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="images/image2_5.jpg"
+              alt="Zdjęcie dwóch opisanych pudełek"
+              width="370"
+              height="294"
+            />
+            <p class="project-name">Projekt Boxes</p>
+            <p class="project-type">Dizajn</p>
+          </li>
+          <li>
+            <img
+              src="images/image2_6.jpg"
+              alt="Zdjęcie mapy świata z napisem - Inspiration has no Borders"
+              width="370"
+              height="294"
+            />
+            <p class="project-name">Inspiration has no Borders</p>
+            <p class="project-type">Strona internetowa</p>
+          </li>
+          <li>
+            <img
+              src="images/image2_7.jpg"
+              alt="Zdjęcie otwartej strony ksiąźki z napisem I'am Limited Edition"
+              width="370"
+              height="294"
+            />
+            <p class="project-name">Magazyn Limited Edition</p>
+            <p class="project-type">Dizajn</p>
+          </li>
+          <li>
+            <img
+              src="images/image2_8.jpg"
+              alt="Zdjęcie metki z napisem LABELTAG PSD Mackup"
+              width="370"
+              height="294"
+            />
+            <p class="project-name">Projekt LAB</p>
+            <p class="project-type">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="images/image2_9.jpg"
+              alt="Programistka trzyma ręce na klawiaturze laptopa z napisem na ekranie Growing Business"
+              width="370"
+              height="294"
+            />
+            <p class="project-name">Growing Business</p>
+            <p class="project-type">Aplikacja</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <a class="footer-logo" href="./index.html"></a>
+      <br />
+      <address class="address">
+        <p class="street">m. Warszawa, Aleje Jerozolimskie 21</p>
+        <a class="footer-contact" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="footer-contact" href="tel:+48 111 111 111">+48 111 111 111</a>
+      </address>
+    </footer>
   </body>
 </html>
