@@ -1,0 +1,69 @@
+:root {
+  --main-font: font-family: 'Roboto', sans-serif;
+  --secondary-font: font-family: 'Raleway', sans-serif;
+  --main-color: #000000; 
+  --color1: #2196F3;
+  --color2: #757575;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* -----HEADER---------*/
+
+.navigation-list-link1 {
+  font-size: 14;
+  line-height: 1.142;
+  line-height: 100%;
+  letter-spacing: 2%;
+  color: #2196F3;
+}
+
+.navigation-list-link1:hover,
+.navigation-list-link1:focus {
+  color: var(--color1);
+}
+
+.navigation-list-link2 {
+font-size: 14;
+line-height: 1.142;
+line-height: 100%;
+letter-spacing: 2%;
+color:  #212121;
+}
+
+.navigation-list-link2:hover,
+.navigation-list-link2:focus {
+  color: var(--main-color);
+}
+
+.navigation-list-link3 {
+  font-size: 14;
+  line-height: 1.142;
+  line-height: 100%;
+  letter-spacing: 2%;
+  color:  #212121;
+  }
+  
+  .navigation-list-link3:hover,
+  .navigation-list-link3:focus {
+    color: var(--main-color);
+  }
+
+  .contact-mail {
+    font-size: 14;
+    line-height: 1.142;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #2196F3;
+  }
+
+  .phone-number {
+    font-size: 14;
+    line-height: 1.142;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #757575;
+  }
+/*-------HEADER--------*/
