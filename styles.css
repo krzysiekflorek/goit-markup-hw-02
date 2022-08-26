@@ -34,6 +34,18 @@ body {
 .blue-text {
   color: #2196f3;
 }
+.black-text {
+  color: #000000;
+}
+.header-list-item {
+  text-decoration: none;
+  font-style: 500;
+  font-size: 14px;
+  line-height: 1.143;
+}
+.header-list-item-link {
+  color: #212121;
+}
 .link-no-underline {
   text-decoration: none;
 }
