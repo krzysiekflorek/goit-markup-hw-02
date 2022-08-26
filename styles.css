@@ -126,13 +126,13 @@ body {
   margin-bottom: 94px;
   width: 1170px;
 }
-.project-title {
+.project-name {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
-.project-type {
+.project-text {
   color: #757575;
   font-size: 16px;
   line-height: 1.875;
