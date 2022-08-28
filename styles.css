@@ -23,18 +23,12 @@ body {
 .black-text {
   color: #000000;
 }
-ul {
-  text-decoration: none;
-  list-style: none;
-}
-.header-list {
-  text-decoration: none;
-  list-style: none;
-}
 .header-list-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
+  text-decoration: none;
+  list-style: none;
 }
 .header-list-item-link {
   color: #212121;
