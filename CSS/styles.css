@@ -1,6 +1,3 @@
-:root {
-  --black: #000;
-}
 body {
   font-family: "Raleway", "Roboto", sans-serif;
   color: #757575;
@@ -39,9 +36,12 @@ body {
 }
 .header-list-item-link {
   color: #212121;
+  text-decoration: none;
+  list-style: none;
 }
 .link-no-underline {
   text-decoration: none;
+  list-style: none;
 }
 .link-style {
   color: #000;
