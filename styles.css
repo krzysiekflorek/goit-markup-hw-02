@@ -25,6 +25,7 @@ body {
 }
 .header-list {
   text-decoration: none;
+  list-style: none;
 }
 .header-list-item {
   font-weight: 500;
