@@ -36,6 +36,7 @@ body {
 }
 .header-list-item-link {
   color: #212121;
+  text-decoration: none;
 }
 .link-no-underline {
   text-decoration: none;
