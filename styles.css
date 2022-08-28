@@ -17,6 +17,9 @@ body {
   line-height: 1.193;
   color: #000;
 }
+.header-box {
+  list-style: none;
+}
 .blue-text {
   color: #2196f3;
 }
