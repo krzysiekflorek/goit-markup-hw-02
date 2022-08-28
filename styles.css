@@ -86,9 +86,6 @@ body {
   width: 200px;
   min-height: 50px;
 }
-li {
-  list-style: none;
-}
 
 /* top section portfolio */
 
@@ -214,4 +211,7 @@ li {
 }
 .address {
   font-style: normal;
+}
+li {
+  list-style: none;
 }
