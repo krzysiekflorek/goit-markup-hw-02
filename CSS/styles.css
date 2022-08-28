@@ -20,6 +20,10 @@ body {
   line-height: 1.193;
   color: #000;
 }
+.header-list {
+  list-style: none;
+  text-decoration: none;
+}
 .blue-text {
   color: #2196f3;
 }
