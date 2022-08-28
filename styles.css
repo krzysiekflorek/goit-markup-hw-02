@@ -19,6 +19,7 @@ body {
 }
 .header-box {
   list-style: none;
+  text-decoration: none;
 }
 .blue-text {
   color: #2196f3;
