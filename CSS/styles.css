@@ -19,9 +19,6 @@ body {
 li {
   list-style: none;
 }
-a {
-  list-style: none;
-}
 .header-list {
   list-style: none;
   text-decoration: none;
@@ -57,6 +54,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   color: #757575;
+  list-style: none;
 }
 
 /* top-section */
