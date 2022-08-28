@@ -26,8 +26,12 @@ body {
 .black-text {
   color: #000000;
 }
+.header-list {
+  text-decoration: none;
+}
 .header-list-item {
   text-decoration: none;
+  list-style: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
