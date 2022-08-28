@@ -1,18 +1,4 @@
-:root {
-  --background: #2f303a66;
-  --productborder: #eeeeee;
-  --footerlinks: #ffffff99;
-  --main-color: #000000;
-  --color: #2196f3;
-  --color: #757575;
-  --color: #fff;
-  --color: #2f303a;
-  --color: #ececec;
-  --color: #212121;
-  --color: #f5f4fa;
-}
-
-body {
+.body {
   font-family: "Raleway", "Roboto", sans-serif;
   color: #757575;
   font-size: 14px;
