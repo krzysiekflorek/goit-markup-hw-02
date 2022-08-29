@@ -3,7 +3,6 @@ body {
   color: #757575;
   font-size: 14px;
 }
-
 .blue-text:hover,
 .blue-text:focus {
   color: #2196f3;
@@ -16,6 +15,9 @@ body {
   font-size: 26px;
   line-height: 1.193;
   color: #000;
+}
+li {
+  list-style: none;
 }
 .header-list {
   list-style: none;
@@ -31,8 +33,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
-  text-decoration: none;
-  list-style: none;
 }
 .header-list-item-link {
   color: #212121;
@@ -40,6 +40,7 @@ body {
 }
 .link-no-underline {
   text-decoration: none;
+  list-style: none;
 }
 .link-style {
   color: #000;
@@ -47,13 +48,14 @@ body {
   font-size: 14px;
   line-height: 1.172;
 }
-.navigation-list {
+.nav-list {
   list-style: none;
 }
 .contact-link-style {
   font-weight: 500;
   font-size: 14px;
   color: #757575;
+  list-style: none;
 }
 
 /* top-section */
@@ -86,7 +88,6 @@ body {
   width: 200px;
   min-height: 50px;
 }
-
 /* top section portfolio */
 
 .top-section-list {
@@ -110,7 +111,6 @@ body {
 }
 
 /* projects */
-
 .projects {
   list-style: none;
   display: flex;
@@ -130,7 +130,6 @@ body {
   font-size: 16px;
   line-height: 1.875;
 }
-
 /*  text-list WebStudio */
 
 .text-header {
@@ -154,7 +153,6 @@ body {
   gap: 30px;
   justify-content: center;
 }
-
 /*  service-team */
 
 .service-header {
@@ -184,7 +182,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
 }
-
 /* footer  */
 
 .footer-box {
