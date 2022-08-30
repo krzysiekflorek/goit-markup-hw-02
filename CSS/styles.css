@@ -34,8 +34,9 @@ li {
   font-size: 14px;
   line-height: 1.143;
 }
-.header-list-item-link {
+.header-list-item-link:hover {
   color: #212121;
+  text-decoration: none;
 }
 .link-no-underline {
   text-decoration: none;
