@@ -7,10 +7,7 @@ body {
 .blue-text:focus {
   color: #2196f3;
 }
-.header-list-item-link:hover,
-.header-list-item-link:focus {
-  color: #2196f3;
-}
+
 /* HEADER */
 
 .header-logo {
