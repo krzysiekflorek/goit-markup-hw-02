@@ -41,6 +41,10 @@ li {
   color: #212121;
   text-decoration: none;
 }
+.header-list-item-link:hover,
+.header-list-item-link:focus {
+  color: #2196f3;
+}
 .link-no-underline {
   text-decoration: none;
   list-style: none;
